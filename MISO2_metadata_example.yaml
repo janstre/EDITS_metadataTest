@@ -4,7 +4,7 @@ format: 1
 title: MISO2 input data example
 description: |-
   This is an example of exogenous data input for the MISO2 model.
-  MISO2 is under development. 
+  MISO2 is currently under development. 
 
   A previous model version can be found under DOI 
   https://doi.org/10.1016/j.ecolecon.2018.09.010.
@@ -25,7 +25,7 @@ dimension:
   time:
     scope: 1900-2019
     resolution: annual
-    description: yearly steps from 1900 to 2019 assumed to go from January 1st to December 31st
+    description: yearly steps from 1900 to 2019 assumed to go from January 1st to December 31st.
   space:
     scope: global
     resolution: 187 countries: Albania (ISOCode1), Armenia(ISOCode2), ..
@@ -53,7 +53,7 @@ measure:
   average lifetime:
     description: >-
       The average lifetime of a certain end-use (product group) depicting the average time which a material stays in use.
-      Can be used in different probability distributions to model the probability of material flowing out of use.
+      Can be used in different probability distributions to model the probability of materials flowing out of use.
   
 
 
